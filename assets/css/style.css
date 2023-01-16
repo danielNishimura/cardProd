@@ -70,6 +70,7 @@ img {
     height: 22.47px;
     object-fit: cover;
     margin-left: 370px;
+    cursor: pointer;
 }
 
 
@@ -108,4 +109,19 @@ img {
     line-height: 16px;
 
     margin-top: 20px;
+}
+
+
+
+@keyframes example {
+    from {background-color: #af94ee;}
+    to {background-color: #e1daf3;}
+  }
+
+  .button:hover,
+  .graus:hover {
+ 
+    border: 0.5px solid #af94ee;
+    animation-name: example;
+    animation-duration: 1s;
 }
