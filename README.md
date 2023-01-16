@@ -6,7 +6,7 @@ my simple music player page for learn HTML, CSS
 <br>
 Projeto desenvolvido durante o desafio #boraCodar um card de produto da Rocketseat!
 
-Utilisei html, css e js para troca da imagem por um gif, e uma animação simples usitilizando animation css.
+Desenvolvido com html, css e js para troca da imagem por um gif, e uma animação simples utilizando animation css.
 
 ![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
 ![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
