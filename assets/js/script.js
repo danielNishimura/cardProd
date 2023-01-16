@@ -1,22 +1,16 @@
-//$(document).ready(function(){
-//    $('#graus-icon').click(function(){
-//      $(this).toggleClass('open');
-//      console.log("cliquei")
-//    });
-//  });
+var imgAtual = "assets/images/image2.png";
+var imgAnterior = "assets/images/sofaboraCodar.gif";
 
-var box = document.getElementById("box");
-var yes = document.getElementById("yes");
-var no = document.getElementById("no");
-
-yes.onclick = function(){
-    document.getElementById("graus-icon").src="assets/images/sofaboraCodar.gif";
+function trocar() {
+    document.getElementById("graus-icon").src = imgAtual;
+    let aux = imgAtual;
+    imgAtual = imgAnterior;
+    imgAnterior = aux;
 }
 
-no.onclick = function(){
-    document.getElementById("graus-icon").src="assets/images/image2.png";
-}
 
+
+//troca imagem
 function marcar() {
     document.getElementById("graus-icon").src="assets/images/sofaboraCodar.gif";
 }
