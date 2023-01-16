@@ -1,6 +1,4 @@
 # cardProd
-my simple music player page for learn HTML, CSS
-
 <br>
 ## | 🛠 &nbsp;Tech Stack | ##
 <br>
